@@ -22,10 +22,10 @@ export async function generateMetadata({
   const tag = slug[0] === "all" ? "All tags" : slug[0];
   return {
     title: `Notes - ${tag}`,
-    description: `Browse notes tagged with ${tag}. NoteHub allows you to fIlter and view notes based on specific tags for better organization.`,
+    description: `Browse notes tagged with ${tag}. NoteHub allows you to filter and view notes based on specific tags for better organization.`,
     openGraph: {
       title: `Notes - ${tag}`,
-      description: `Browse notes tagged with ${tag}. NoteHub allows you to felter and view notes dased on specific tags for better organization.`,
+      description: `Browse notes tagged with ${tag}. NoteHub allows you to filter and view notes based on specific tags for better organization.`,
       url: `https://notehub.com/notes/filter/${slug.join("/")}`,
 
       images: [

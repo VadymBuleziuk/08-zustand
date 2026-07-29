@@ -10,6 +10,7 @@ import { useRouter } from "next/navigation";
 export default function NoteForm() {
   const queryClient = useQueryClient();
   const { draft, setDraft, clearDraft } = useNoteDraftStore();
+  const router = useRouter();
 
   const handleChange = (
     event: React.ChangeEvent<
@@ -25,7 +26,7 @@ export default function NoteForm() {
   const handleCancel = () => {
     router.back();
   };
-  const router = useRouter();
+
   const mutation = useMutation({
     mutationFn: createNote,
     onSuccess: () => {
