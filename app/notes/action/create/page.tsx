@@ -1,3 +1,4 @@
+import NoteForm from "@/components/NoteForm/NoteForm";
 import css from "./CreateNote.module.css";
 import { Metadata } from "next";
 
@@ -26,7 +27,7 @@ export default function CreateNote() {
     <main className={css.main}>
       <div className={css.container}>
         <h1 className={css.title}>Create note</h1>
-        {/* NoteForm component */}
+        <NoteForm />
       </div>
     </main>
   );
