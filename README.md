@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NoteHub — Notes & State Management (Next.js)
 
-## Getting Started
+A **Next.js / React / TypeScript** training project from my GoIT Full Stack coursework. It focuses on note browsing and editing flows, client-side state, and navigating between notes using Next.js App Router.
 
-First, run the development server:
+**[Live demo](https://08-zustand-seven-eta.vercel.app)** · [My GitHub profile](https://github.com/VadymBuleziuk)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features and concepts
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Notes list and detail routes
+- Search, filtering and pagination
+- Creating and editing note forms
+- Route-based and modal UI flows
+- A **Zustand store** that persists a note draft between page visits
+- Async data fetching with TanStack Query
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Next.js · React · TypeScript · Zustand · TanStack Query · Axios · Formik · Yup · CSS Modules
 
-## Learn More
+## Run locally
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone this repository.
+2. Run `npm install`.
+3. Configure any API credentials required by the application.
+4. Run `npm run dev` and open `http://localhost:3000`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project uses a training API and may need environment configuration. The deployed site has not been independently tested for this README update.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project context
 
-## Deploy on Vercel
+This is a **learning project**, not a commercial application. It demonstrates routing, asynchronous data and state management. For a real business website I developed, visit **[Fiori di Zefiro](https://www.fiori-di-zefiro.it)**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Developer:** [Vadym Buleziuk](https://github.com/VadymBuleziuk) · [LinkedIn](https://www.linkedin.com/in/vadym-buleziuk/)
